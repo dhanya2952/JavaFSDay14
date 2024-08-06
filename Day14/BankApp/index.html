@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        #logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        #logo img {
+            width: 150px; /* Adjust logo size */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        nav .btn {
+            margin: 0 10px;
+        }
+        .image {
+            display: flex;
+            justify-content:left;
+            margin-top: 20px;
+        }
+        .image img {
+            max-width: 100%; /* Responsive image */
+            height: auto;
+            border-radius: 10px; /* Optional: add rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container" id="logo">
+            <img src="your-logo.png" alt="Bank Logo"> <!-- Replace with your logo URL -->
+        </div>
+        <nav class="navbar">
+            <button class="btn btn-outline-danger" type="button" onclick="location.href='signup.jsp'">Signup</button>
+            <button class="btn btn-outline-warning" type="button" onclick="location.href='login.jsp'">Login</button>
+        </nav>
+    </header>
+    <section class="image">
+        <img src="your-image.jpg" alt="Banking Image"> <!-- Replace with your image URL -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Banking Application. All rights reserved.</p>
+    </footer>
+</body>
+</html>
